@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.table__container {
+  min-height: 50vh;
+  margin-bottom: 30px;
+}
+
+.header__container {
+  text-align: center;
+}
+
+.th, .td {
+  border: 1px solid;
+}
+
+.table-head__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-head-limits__container {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: lightyellow;
+  padding: 2px;
+  font-size: small;
+}
+
+.table-head--element {
+  min-width: 250px;
+  padding: 10px;
+  background-color: coral;
+}
+
+.table-head-title__container {
+  text-align: left;
+}
+
+.table-head__status-title {
+  margin: 0;
+}
+
+.table-body--element {
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.table-body--item {
+  border: 1px solid;
+  background-color: wheat;
+  margin: 1px;
+}
+
+.table-body--item__user {
+  font-size: small;
+}
+
+.task__button {
+  min-width: 35px;
+  margin: 5px 2px 2px 2px;
+}
+
+.errors__div {
+  color: red;
+}
+
+.form-title__container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-inputs__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.form-input-submit {
+  width: 140px;
+  height: 25px;
+}
+
+.form-section__container {
+  width: 1060px;
+}
+
+.form-section-items__container {
+  margin: 0 auto 0 auto;
+  width: 700px;
+  background-color: lightyellow;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0 20px 40px 20px;
+}
